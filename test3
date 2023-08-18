@@ -1,0 +1,8 @@
+vim test3 .c
+#include<stdio.h>
+#include<limits.h>
+int main()
+{
+    printf("int 存储的大小：%lu\n",sizeof(int));
+    return 0;
+}
